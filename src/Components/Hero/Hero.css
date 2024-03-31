@@ -1,0 +1,54 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../assets/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 40px;
+    cursor: pointer;
+}
+
+.text-box {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+
+.text-box p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.row {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
